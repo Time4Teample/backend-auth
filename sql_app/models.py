@@ -12,3 +12,6 @@ class User(Base):
     username = Column(String(50))
     hashed_password = Column(String(255) )
     disabled = Column(Boolean, default=False)
+
+    class config():
+        orm_mode = True
