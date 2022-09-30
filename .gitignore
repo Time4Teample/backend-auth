@@ -1,0 +1,26 @@
+#Cache directory
+#api
+/__pychache__/
+/app/api/__pychache__/
+/app/api/api_v1/__pychache__/
+
+#core
+/app/core/__pychache__/
+
+#crud
+/app/crud/__pychache__/
+
+#db
+/app/db/__pychache__/
+
+#models
+/app/models/__pychache__/
+
+#schemas
+/app/schemas/__pychache__/
+
+.DS_Store
+*.pyc
+
+#personal thing
+.env
